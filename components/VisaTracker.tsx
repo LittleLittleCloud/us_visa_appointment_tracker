@@ -1,3 +1,5 @@
+'use client'
+
 import { VisaData, VisaType, getVisaDataAsync } from "@/api";
 import React, { FC } from "react";
 import { CentralBox, LargeLabel, SmallLabel, TinyLabel } from "./Globals";

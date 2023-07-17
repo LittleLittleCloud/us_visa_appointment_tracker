@@ -3,6 +3,7 @@
 // disable eslint
 // disable type check
 const nextConfig = {
+    output: 'export',
     eslint: {
         ignoreDuringBuilds: true,
     },

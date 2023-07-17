@@ -1,3 +1,5 @@
+'use client'
+
 import styled from "@emotion/styled";
 import { AvatarProps, Typography, TextField, BaseTextFieldProps, Select, Box, Button } from "@mui/material";
 import { useState } from "react";

@@ -1,3 +1,5 @@
+'use client'
+
 import { AppBar, Toolbar, Stack } from "@mui/material";
 import React, { FC } from "react";
 import { LargeLabel } from "./Globals";
