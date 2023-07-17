@@ -17,12 +17,12 @@ export const VisaAppBar:FC = () => {
                 direction={'row'}
                 flexGrow={1}
                 spacing={2}>
-                <LargeClickableLabel
+                <LargeLabel
                     onClick={() =>{
                         window.open('/');
                     }}>
                     US Visa Appointment Tracker (Canada)
-                </LargeClickableLabel>
+                </LargeLabel>
             </Stack>
             <Stack
                 spacing={2}
@@ -34,12 +34,12 @@ export const VisaAppBar:FC = () => {
                             window.open('https://github.com/LittleLittleCloud/us_visa_appointment_tracker');
                         }} />
                 </Tooltip>
-                <Button // jump to /release
+                {/* <Button // jump to /release
                     onClick={() => {
                         window.open('/release');
                     }}>
                     Release Notes
-                </Button>
+                </Button> */}
             </Stack>
         </Toolbar>
     </AppBar>);
