@@ -43,6 +43,13 @@ export const CentralBox = styled(Box)(({theme}) => ({
     alignItems: "center",
 }));
 
+export const LargeClickableLabel = styled(LargeLabel)(({theme}) => ({
+    cursor: 'pointer',
+    '&:hover': {
+        backgroundColor: theme.palette.action.hover,
+    }
+}));
+
 export const SmallClickableLabel = styled(SmallLabel)(({theme}) => ({
     cursor: 'pointer',
     '&:hover': {
